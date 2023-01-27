@@ -1,0 +1,568 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bodyWrapper{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.sidebarNav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    flex:362;
+    height: 100%;
+    position: fixed;
+    background: white;
+    border-right: 1px solid #EAECF0;
+}
+.mainContent{
+    flex:1078;
+    height: 100%;
+    margin-left:362px;
+}
+.sidebarNav .NavContent{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    border-right: 1px solid #EAECF0;
+    height: 100%;
+    width: 81;
+}
+.sidebarNav .subNavBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    background: white;
+    height: 100%;
+    width: 281;   
+  
+}
+.sidebarNav .NavContent .navs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 0px 0px;
+    gap: 24px;
+    width: 100%;
+    height: 416px;
+}
+.sidebarNav .NavContent .navs .header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 20px 0px 24px;
+    width: 100%;
+    height: 32px;
+}
+.sidebarNav .NavContent .navs .navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 16px;
+    gap: 8px;
+    width: 100%;
+    height: 328px;
+}
+.sidebarNav .subNavBar .content .navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 100%;
+    height: 304px;
+}
+.sidebarNav .NavContent .footer .navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 49px;
+    height: 104px;
+}
+.sidebarNav .NavContent .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 16px 24px;
+    gap: 24px;
+    width: 100%;
+    height: 200px;
+}
+.sidebarNav .subNavBar .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 36px 16px 0px;
+    gap: 16px;
+    width: 100%;
+    height: 380px;
+}
+.sidebarNav .subNavBar .account{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 48px 24px 20px;
+    gap: 47px;
+    isolation: isolate;
+    width: 100%;
+    height: 64px;
+}
+.sidebarNav .subNavBar .content .navigation .navItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+    border-radius: 6px;
+    width: 100%;
+    height: 40px;
+}
+.sidebarNav .subNavBar .content .navigation .navItems .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    height: 24px;
+}
+.mainContent .pageHeader .container .subContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+}
+.sidebarNav .subNavBar .content .navigation .navItems .badge{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8px;
+    width: 30px;
+    height: 22px;
+    background: #F2F4F7;
+    mix-blend-mode: multiply;
+    border-radius: 16px;
+}
+.sidebarNav .subNavBar .account .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    height: 40px;
+}
+
+.mainContent .pageHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+}
+.mainContent .sections{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    margin-top: 108px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .pageHeader .imgWrap{
+    width: 100%;
+    height: 240px;
+    margin: -40px 0px;
+}
+.mainContent .pageHeader .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 24px;
+    width: 100%;
+    height: 160px;
+}
+.mainContent .pageHeader .imgWrap .imgStyle{
+    height: 100%;
+    width: 100%;
+}
+.mainContent .pageHeader .container .subContainer .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px 0px 0px;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .pageHeader .container .subContainer .content .heading{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 830px;
+    height: 66px;
+}
+.mainContent .sections .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+}
+.mainContent .pageHeader .container .subContainer .content .heading .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 589px;
+    height: 66px;
+}
+.mainContent .pageHeader .container .subContainer .content .heading .actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 225px;
+    height: 40px;
+}
+.mainContent .pageHeader .container .subContainer .content .heading .actions .customButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    height: 40px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.mainContent .sections .container .form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .LHStext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+}
+.mainContent .sections .container .form .contentSection .RHSform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .LHStext .textA{
+    color: #344054;
+    font-weight: bold;
+    font-size: 18px;
+}
+.mainContent .sections .container .form .contentSection .LHStext .textB{
+    color: #475467;
+    font-size: 18px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 16px;
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer .textBox .textWrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .nameFields{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer .lableStyle{
+    font-weight: bold;
+    font-size: 14px;
+    color: #344054;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer .textBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;    
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer .textBox .textWrap .textstyle{
+    color: #101828;
+    font-size: 16px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile .fileUploadContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile .fileUploadContainer .fileUploadContainer2 .fileUploadContainer3 .textWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile .fileUploadContainer .fileUploadContainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px dashed #EAECF0;
+    border-radius: 12px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile .fileUploadContainer .fileUploadContainer2 .fileUploadContainer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile .fileUploadContainer .fileUploadContainer2 .fileUploadContainer3 .textWrap .combinedText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile .fileUploadContainer .fileUploadContainer2 .fileUploadContainer3 .textWrap .subtextStyle{
+    color: #475467;
+    font-size: 14px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .footer .content .buttonsWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile .fileUploadContainer .fileUploadContainer2 .fileUploadContainer3 .textWrap .combinedText .textLink{
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .avtarAndFile .fileUploadContainer .fileUploadContainer2 .fileUploadContainer3 .textWrap .combinedText .textStyle{
+    color: #475467;
+    font-size: 16px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .footer .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 16px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .toggle .textWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .footer .content .buttonsWrap .buttonStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .footer .content .buttonsWrap .buttonStyle .btnTextStyle{
+    color: #344054;
+    font-size: 14px;
+    font-weight: bold;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .toggle{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+#input_Box_Variation_1a{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .toggle .textWrap .textA{
+    color: #344054;
+    font-size: 14px;
+    font-weight: bold;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .toggle .textWrap .textB{
+    color: #475467;
+    font-size: 14px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .iconContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer .textBox .addOn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px 10px 14px;
+    border-radius: 8px 0px 0px 8px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer .textBox .textWrapsub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    background: #FFFFFF;
+    border-left: 1px solid #D0D5DD;
+    border-radius: 0px 8px 8px 0px;
+    width: 100%;
+    height: 100%;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer .textBox .addOn .txtStyle{
+    color: #475467;
+    font-size: 16px;
+}
+.mainContent .sections .container .form .contentSection .RHSform .content .InputField .InputContainer .textBox .textWrapsub .txtStyle{
+    color: #101828;
+    font-size: 16px;
+}
+#toolbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    align-self: stretch;
+}
+#toolBarFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
